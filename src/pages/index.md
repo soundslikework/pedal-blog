@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Sounds Like Work
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: A place for weird noise on the internet
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
