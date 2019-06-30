@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import TagCloud from '../components/TagCloud'
 
 export const IndexPageTemplate = ({
   image,
@@ -87,6 +88,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
+                <TagCloud />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
