@@ -9,8 +9,11 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
-$navbar-item-hover-background-color: pink
-$navbar-item-hover-color: pink
+$navbar-item-color: $kaldi-red-invert
+$navbar-item-hover-background-color: $kaldi-red-invert
+$navbar-item-hover-color: $kaldi-red
+$main-bg: #363636
+$main-bg-transparent: rgba(54, 54, 54, 0.7)
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -77,6 +80,7 @@ $navbar-item-hover-color: pink
   color: $primary
 .navbar-item
   font-family: $family-monospace
+  color: $white-ter
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -126,7 +130,7 @@ $menu-label-color: $white-ter
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
-
+// CSS injects here
 @import "~bulma"
 
 
