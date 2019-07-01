@@ -76,13 +76,17 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold has-text-centered is-size-2">
                   Latest Posts
                   </h3>
+                </div>
+                <div className="column is-12">
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">Read more</Link>
                   </div>
+                  <div className="column is-12">
                   <h3 className="has-text-weight-semibold has-text-centered is-size-2">
                     Tags
                   </h3>
+                  </div>
                   <TagCloud />
                 </div>
             </div>
