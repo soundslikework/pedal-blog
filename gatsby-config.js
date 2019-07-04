@@ -58,6 +58,14 @@ module.exports = {
               destinationDir: 'static',
             },
           },
+          {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+              trackingId: "UA-73716174-3",
+              // Defines where to place the tracking script - `true` in the head and `false` in the body
+              head: true,
+            }
+          }
         ],
       },
     },
